@@ -2,7 +2,8 @@ name: Build
 on:
   push:
     branches:
-      - dev
+      - main
+      - FE_Atom/Button
     paths:
       - "Seeder_Application/**"
       - ".github/workflows/build.yml"
